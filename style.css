@@ -5,9 +5,9 @@ html {
 header {
   font-size: 32px;
   font-family: Arial, sans-serif;
-  color: #2674FF;
+  color: darkblue;
   text-align: center;
-  text-shadow: 2px 2px darkblue;
+  text-shadow: 2px 2px #2674FF;
 }
 body {
   background-color: #1377a8;
