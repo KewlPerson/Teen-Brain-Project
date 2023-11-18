@@ -14,9 +14,14 @@ header {
 body {
   background-color: #1377a8;
 }
+
 p {
   color: white;
   font-family: "monaco", monospace;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
 
 a {
@@ -24,4 +29,12 @@ a {
 }
 a :hover {
   color: red;
+}
+
+nav {
+  font-size: 8px;
+  margin-top: 4px;
+  margin-left: 2px;
+  margin-right: 4px;
+  margin-bottom: 4px;
 }
