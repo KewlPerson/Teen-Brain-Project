@@ -2,6 +2,7 @@ html {
   height: 100%;
   width: 100%;
 }
+
 header {
   font-size: 32px;
   font-family: Arial, sans-serif;
@@ -9,10 +10,18 @@ header {
   text-align: center;
   text-shadow: 2px 2px #2674FF;
 }
+
 body {
   background-color: #1377a8;
 }
 p {
   color: white;
   font-family: "monaco", monospace;
+}
+
+a {
+  font-family: "monaco", monospace;
+}
+a :hover {
+  color: red;
 }
