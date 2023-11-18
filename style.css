@@ -1,0 +1,18 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+header {
+  font-size: 32px;
+  font-family: Arial, sans-serif;
+  color: #2674FF;
+  text-align: center;
+  text-shadow: 2px 2px black;
+}
+body {
+  background-color: #1377a8;
+}
+p {
+  color: #26cdd9;
+  font-family: "monaco", monospace;
+}
