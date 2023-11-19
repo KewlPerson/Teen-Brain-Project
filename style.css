@@ -3,7 +3,7 @@ html {
   width: 100%;
 }
 
-header {
+h1 {
   font-size: 32px;
   font-family: Arial, sans-serif;
   color: darkblue;
@@ -42,7 +42,7 @@ nav {
 
 aside {
   color: black;
-  border: 8px darkblue;
+  border: 8px gray;
   padding: 20px 20px 20px 15px
   background-color: #7393B3;
 }
