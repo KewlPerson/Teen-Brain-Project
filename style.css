@@ -18,10 +18,10 @@ body {
 p {
   color: white;
   font-family: "monaco", monospace;
-  margin-top: 20px;
-  margin-left: 15px;
-  margin-right: 20px;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-left: 7px;
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
 
 a {
@@ -42,7 +42,7 @@ nav {
 
 aside p {
   color: black;
-  border: 8px gray;
-  padding: 20px 20px 20px 15px
+  padding: 10px 10px 10px 7px;
+  border: 4px gray;
   background-color: #7393B3;
 }
