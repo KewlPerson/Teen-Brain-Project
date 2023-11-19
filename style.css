@@ -26,6 +26,7 @@ p {
 
 a {
   font-family: "monaco", monospace;
+  cursor: pointer;
 }
 a :hover {
   color: red;
