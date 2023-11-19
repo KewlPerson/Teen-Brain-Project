@@ -19,7 +19,7 @@ p {
   color: white;
   font-family: "monaco", monospace;
   margin-top: 20px;
-  margin-left: 10px;
+  margin-left: 15px;
   margin-right: 20px;
   margin-bottom: 20px;
 }
@@ -35,7 +35,14 @@ a :hover {
 nav {
   font-size: 12px;
   margin-top: 4px;
-  margin-left: 2px;
+  margin-left: 4px;
   margin-right: 4px;
   margin-bottom: 4px;
+}
+
+aside {
+  color: black;
+  border: 8px darkblue;
+  padding: 20px 20px 20px 15px
+  background-color: #7393B3;
 }
