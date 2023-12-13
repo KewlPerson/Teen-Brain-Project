@@ -1,22 +1,49 @@
 <!DOCTYPE html>
 <html>
-  
+
   <head>
-    <title>The Teen Brain</title>
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/3/37/Human-brain-vector.svg" type="image/x-icon">
+    <title>Teen Brain Guide</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="script.js"></script>
   </head>
-  
+
   <body>
-    <nav>
-      <a href="index.html">An Introduction To Your Brain</a>
-      <br>
-      <a href="BrainDevelopment.html">The Development Of Your Brain</a>
-    </nav>
+    <header>
+      <h2 class="h2InHeader">Teen Brain Owner's Guide |</h1>
+      <nav>
+        <div class="dropdown">
+            <a href="#" class="dropbtn">Pages</a>
+            <div class="dropdown-content">
+              <a href="index.html">An Introduction to Your Teenage Brain</a>
+              <a href="#">Looking Into the Brain</a>
+              <a href="BehavioralEffects.html">The Brain's Effects on Behavior</a>
+              <a href="advice.html">Some Advice For You</a>
+              <a href="MoreResources.html">More Resources</a>
+              <a href="references.html">Sources</a>
+            </div>
+        </div>
+      </nav>
+    </header>
     <br><br>
-    <h1>The Development of Your Brain</h1>
-    <p>At your age, your brain is constantly growing and changing, even right now as you're reading this. From puberty to your mid-20s, synapses are grown and then pruned to increase efficiency. This process begins in the back end of your brain and moves forward to the front.</p><br>
-		<aside><p>Synapse: Connections in the brain that are used for communication.</p></aside><br>
-    <p>Because you're in the middle of these changes, only parts of your brain are fully developed. One still undeveloped piece of your brain is the prefrontal cortex. As a result, your prefrontal cortex is less able to perform its functions, such as making judgments and controlling impulses. Meanwhile, areas of the brain that play roles in reward and pleasure, such as your nucleus accumbens, are more developed.</p>
-	</body>
-  
+    <h1>Looking Into the Brain</h1>
+    <article>
+      <p>To help you understand your teen brain, you'll need to learn about two of its parts: the prefrontal cortex and the striatum.</p>
+      <h2>The Prefrontal Cortex</h2>
+      <p>The prefrontal cortex, located in the front of your brain, is involved in regulating impulses and evaluating the consequences of actions. Its connections to the more emotional areas of your brain are critical to being able to manage your behavior well. So, when you're trying to make a good decision, this is what will help you. What a shame it would be if it was inhibited somehow, right?</p>
+      <h2>The Striatum</h2>
+      <p>The striatum is located in the central, inner layers of your brain, and it is deeply involved with the way you process rewards. When something that you like happens, such as eating, the striatum activates and releases a neurotransmitter called dopamine, rewarding your brain for the action and making you like the pleasurable thing. But, if the striatum encourages certain behaviors through the dopamine it releases, what happens when it rewards you for something dangerous?</p>
+      <figure>
+        <img onclick="openWindow('https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Dopamine_pathways.svg/2560px-Dopamine_pathways.svg.png', '_blank')" src="https://upload.wikimedia.org/wikipedia/commons/d/de/Dopamine_pathways.svg" width="319" height="223">
+        <figcaption style="width: 319px;">Fig. 2 - Diagram of the brain, curiously absent in certain teenagers (not you, of course), 2023 colorized</figcaption>
+      </figure>
+      <h2>Your Brain's Development</h2>
+      <p>Beginning in puberty and ending in your mid-20s, a process goes from the back of your brain and continues towards its front. <em>Synapses, connections in the brain used for communication</em>, are grown and then pruned later to make things more efficient. Additionally, synapses become coated with a protective substance known as myelin, which acts to boost efficiency and precision. This goes on constantly, meaning that your brain is growing and changing even as you're on this website!</p>
+      <p>Because you're in the middle of these changes, only a section of your brain is fully developed. One still incomplete piece of your brain is your prefrontal cortex. As a result, the prefrontal cortex is less able to perform any and all of its functions. Meanwhile, areas of the brain that play roles in reward and pleasure, like your striatum, are more developed. This means that, unlike your prefrontal cortex, your reward-involved striatum is operating amazingly.</p>
+      <hr><p>Are you wondering how these two differently-matured parts of the brain would interact? Why don't you take a moment to guess what could happen and go to the next page to see if you're right.</p>
+    </article>
+    <br><br><button id="previous" class="page" onclick="openWindow('index.html', '_self')"><div class="arrow left"></div> Previous</button>
+    <button id="next" class="page" onclick="openWindow('BehavioralEffects.html', '_self')">Next <div class="arrow right"></div></button>
+  </body>
+
 </html>
